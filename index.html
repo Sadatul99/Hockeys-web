@@ -51,36 +51,27 @@
               </svg>
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
+              <li><a class="text-red-500">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li> 
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl">daisyUI</a>
+          <a class="btn btn-ghost text-3xl font-semibold">Hockye's</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li><a>Item 1</a></li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </details>
-            </li>
-            <li><a>Item 3</a></li>
+            <li><a class="text-red-500">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
           </ul>
         </div>
-        <div class="navbar-end">
-          <a class="btn">Button</a>
+        <div class="navbar-end gap-4">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a class="btn btn-primary bg-red-500 ">Get Ticket</a>
         </div>
       </div>
     </nav>
@@ -120,7 +111,7 @@
     <!-- progress bar -->
     <section class="my-20">
       <div class="text-center my-20">
-        <h2>Professional Hockeys Club</h2>
+        <h2 class="text-4xl font-bold ">Professional Hockeys Club</h2>
         <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
           nullam proin. </p>
       </div>
@@ -131,17 +122,17 @@
           <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
         <div class="text-center">
-          <div class="radial-progress text-primary text-red-600" style="--value:87;" role="progressbar">87%</div>
+          <div class="radial-progress text-primary text-yellow-600" style="--value:87;" role="progressbar">87%</div>
           <h3>Prayer Facility</h3>
           <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
         <div class="text-center">
-          <div class="radial-progress text-primary text-red-600" style="--value:87;" role="progressbar">87%</div>
+          <div class="radial-progress text-primary text-green-600" style="--value:87;" role="progressbar">87%</div>
           <h3>Prayer Facility</h3>
           <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
         <div class="text-center">
-          <div class="radial-progress text-primary text-red-600" style="--value:87;" role="progressbar">87%</div>
+          <div class="radial-progress text-primary text-brown-600" style="--value:87;" role="progressbar">87%</div>
           <h3>Prayer Facility</h3>
           <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
@@ -469,11 +460,17 @@
   </main>
   <footer class="footer p-10 bg-neutral text-neutral-content">
     <div class="max-w-xs">
-      <h3>Get In Touch</h3>
+      <h3 class="text-2xl font-bold">Get In Touch</h3>
       <p>Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.
       </p>
-      <div></div>
-      <div></div>
+      <div class="flex items-center">
+        <i class="fa-solid fa-phone text-red-500 mr-2 "></i>
+        <p>(+62) 123-321-543</p>
+      </div>
+      <div class="flex items-center">
+        <i class="fa-solid fa-message text-red-500  mr-2"></i>
+        <p>hockeys@support.com</p>
+      </div>
     </div>
     <nav class="flex flex-col">
       <h6 class="footer-title">Services</h6>
